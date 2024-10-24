@@ -1,0 +1,71 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: #a00909
+}
+
+
+h1{
+    color: maroon;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.emphasize{
+    font-weight: 700;
+}
+
+.my-first-div{
+    background-color: orange;
+    padding: 1rem;
+    border: 3px solid blue;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.my-flex-div{
+  background-color: hotpink;
+  display: flex;
+  padding: lrem;
+  border: 3px solid blue;
+  justify-content: space-evenly;
+
+}
+
+.item{
+    background-color: aqua;
+    padding: lrem;
+    border: 1px solid darkgreen;
+    border-radius: lrem;
+
+}
+
+.absolute-position, .fixed-position{
+    background-color: cornflowerblue;
+    padding: 1rem;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.absolute-position{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.fixed-position{
+    position: fixed;
+    top: 25px;
+    right:25px;
+}
+
+@media screen and (max-width: 600 px){
+    .my-first-div{
+        background-color blue;
+    }
+}
