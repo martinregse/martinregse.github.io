@@ -27,12 +27,12 @@ p{
 }
 
 .my-flex-div{
-  background-color: hotpink;
+  background-color: #7f7f7f;
   display: flex;
-  padding: lrem;
+  padding: 4rem;
   border: 3px solid blue;
   justify-content: space-evenly;
-
+  font-size: 4rem;
 }
 
 .item{
